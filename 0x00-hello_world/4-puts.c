@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
-*this is main
-*Return 0 
+*Main- prints 
+*Description: This is main 
+*Return: 0 
 */
 int main(void)
 {
