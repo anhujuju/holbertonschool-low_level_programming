@@ -18,8 +18,11 @@ int main(void)
 {
 	putchar(in);
 	putchar(in2);
+	if (in < 57 || in2 < 57)
+{
 	putchar(44);
 	putchar(32);
+}
 }
 }
 	putchar('\n');
