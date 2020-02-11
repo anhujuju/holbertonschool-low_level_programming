@@ -1,8 +1,9 @@
 #include "holberton.h"
 /**
-* int add - ptints two integers and returns the result.
-*
-*Return: n + n2
+* add - ptints two integers and returns the result.
+* @n: is a variable
+* @n2: is a second variable.
+* Return: n + n2.
 */
 int add(int n, int n2)
 {
