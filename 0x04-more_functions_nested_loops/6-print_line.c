@@ -1,21 +1,22 @@
 #include "holberton.h"
-
 /**
- * print_line - Print _
- *
- * Return: Nothing
- */
+* print_line - Draws a straight line
+*@n: number of times the character _ should be printed
+*Return: Nothing
+*/
 void print_line(int n)
 {
 	int i;
 
-	if (n > 0)
+	if (n <= 0)
+		_putchar('\n');
+	else
 	{
-	for (i = 0; i < n; i++)
-	{
-	_putchar('_');
+		for (i = 1; i <= n; i++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
 	}
-	}
-	_putchar('\n');
 }
 
