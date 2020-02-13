@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_most_numbers - Prints numbers exept 2 or 4
  *
- * Return: Always 0.
+ * Return: Nothing
  */
 void print_most_numbers(void)
 
