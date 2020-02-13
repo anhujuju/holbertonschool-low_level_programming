@@ -1,13 +1,14 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
+* _isupper - checks for uppercase character
+* @c : character received
+*Return: 1 is uppercase 0 otherwhise
+*/
+
 int _isdigit(int c)
 {
-	if (c <= 48 || c <= 57)
+	if (c <= 48 && c <= 57)
 
 	{
 	return (1);
