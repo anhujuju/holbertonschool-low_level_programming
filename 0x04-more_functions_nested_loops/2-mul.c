@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * mul - is a function
+ *@a: is a first variable
+ *@b: is a second variable
  * Return: Always 0.
  */
 int mul(int a, int b)
