@@ -1,4 +1,4 @@
-include "holberton.h"
+:x
 /**
 * _isdigit - check if is a number
 * @c: character received
