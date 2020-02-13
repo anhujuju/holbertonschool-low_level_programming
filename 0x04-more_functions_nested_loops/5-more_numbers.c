@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * more_numbers - prints 10 times the numbers, from 0 to 14
  *
- * Return: Always 0.
+ * Return: Nothing
  */
 void more_numbers(void)
 {
@@ -17,8 +17,8 @@ void more_numbers(void)
 {
 	d = b / 10;
 
-	_putchar ( d + '0');
-	
+	_putchar (d + '0');
+
 }
 	_putchar (b % 10 + '0');
 }
