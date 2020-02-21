@@ -4,12 +4,6 @@
 * _strlen - returns the lenght of a string
 *@s: poiter of character
 *Return: the length of a string
-
-* *_strncat - concatenates two strings
-*@dest: string to print
-*@src: string origin
-*@n: number of bytes
-*Return: dest
 */
 int _strlen(char *s)
 {
@@ -21,6 +15,13 @@ int _strlen(char *s)
 	return (len);
 }
 
+/**
+* *_strncat - concatenates two strings
+*@dest: string to print
+*@src: string origin
+*@n: number of bytes
+*Return: dest
+*/
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, len;
