@@ -1,14 +1,8 @@
-iinclude "holberton.h"
+#include "holberton.h"
 /**
-* *_strcpy - copies the string pointed
-*@dest: copie of the string
-*@src: origin of the string
-*Return: dest destine copie
-
-* *_strcat - concatenates two strings
-*@dest: string to dest
-*@src: string origin
-*Return: dest
+* _strlen - returns the lenght of a string
+*@s: poiter of character
+*Return: the length of a string
 */
 int _strlen(char *s)
 {
@@ -20,6 +14,12 @@ int _strlen(char *s)
 	return (len);
 }
 
+/**
+* *_strcat - concatenates two strings
+*@dest: string to dest
+*@src: string origin
+*Return: dest
+*/
 char *_strcat(char *dest, char *src)
 {
 	int i, lendest, lensrc;
