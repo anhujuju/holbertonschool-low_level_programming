@@ -1,9 +1,14 @@
-#include "holberton.h"
+iinclude "holberton.h"
 /**
 * *_strcpy - copies the string pointed
 *@dest: copie of the string
 *@src: origin of the string
 *Return: dest destine copie
+
+* *_strcat - concatenates two strings
+*@dest: string to dest
+*@src: string origin
+*Return: dest
 */
 int _strlen(char *s)
 {

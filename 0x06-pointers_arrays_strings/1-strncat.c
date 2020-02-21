@@ -1,20 +1,34 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
-* *_strcpy - copies the string pointed
-*@dest: copie of the string
-*@src: origin of the string
-*Return: dest destine copie
-*/
+* _strlen - returns the lenght of a string
+*@s: poiter of character
+*Return: the length of a string
 
-void reverse_array(int *a, int n)
+* *_strncat - concatenates two strings
+*@dest: string to print
+*@src: string origin
+*@n: number of bytes
+*Return: dest
+*/
+int _strlen(char *s)
 {
-	int i;
-	n--;
-	for(i = 0; i <= n; i++)
+	int len;
+
+	len = 0;
+	while (*(s + len) != '\0')
+		len++;
+	return (len);
+}
+
+char *_strncat(char *dest, char *src, int n)
+{
+	int i, len;
+
+	len = _strlen(dest);
+	for (i = 0; (i < n && src[i] != '\0'); i++)
 	{
-	 aux = a[n];
-	 a[n] = a [i];
-	 a[i] = aux;
-	n--;
+		dest[len + i] = src[i];
 	}
+	return (dest);
 }
