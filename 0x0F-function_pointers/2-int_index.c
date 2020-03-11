@@ -21,9 +21,7 @@ for (i = 0; i < size; i++)
 {
 value = p(array[i]);
 if (value != 0)
-{
 return (i);
-}
 }
 return (-1);
 }
